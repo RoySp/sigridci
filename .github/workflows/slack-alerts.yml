@@ -4,6 +4,7 @@ on:
     - cron: "0 6 * * 1-5"
 jobs:
   slackalerts:
+    if: false
     name: "Send Slack alerts"
     runs-on: ubuntu-latest
     steps:
